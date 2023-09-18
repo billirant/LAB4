@@ -1,0 +1,57 @@
+body {
+    font-family: 'Krub', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ทำให้เนื้อหาอยู่กลางจอทั้งแนวนอนและแนวตั้ง */
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 40px 300px 50px 80px;
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    text-align: center;
+    
+}
+
+h5 {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    margin: 15px 0px 15px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#password_space {
+    margin: 0px 3px 0px 0px;
+}
+
+.flex_form {
+    display: flex;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
